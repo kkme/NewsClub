@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+            android:background="@color/page_bg"
+    android:orientation="vertical" >
+    
+ <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+>
+
+ <ImageButton
+            android:id="@+id/left_selected"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:background="@color/page_bg"
+            android:src="@drawable/left_selected" />
+ 
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@id/left_selected"
+            
+            android:layout_centerVertical="true"
+            android:background="@color/page_bg"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_home" />
+
+        <TextView
+            android:id="@+id/btn_home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_home"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="首页"
+            android:textColor="@color/transparent"
+            android:textSize="18sp" />
+     </RelativeLayout>
+         <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+                    android:background="@color/page_bg"
+        
+        >
+
+        <ImageButton
+            android:id="@+id/btn_left_vote"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:background="@color/page_bg"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_left_vote" />
+
+        <TextView
+            android:id="@+id/btn_left_vote_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_left_vote"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="赞"
+            android:textColor="@color/transparent"
+            android:textSize="18sp" />
+     </RelativeLayout>
+           <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+                    android:background="@color/page_bg"
+        
+        >
+
+        <ImageButton
+            android:id="@+id/btn_left_save"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:background="@color/page_bg"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_left_save" />
+
+        <TextView
+            android:id="@+id/btn_left_save_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_left_save"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="收藏"
+            android:textColor="@color/transparent"
+            android:textSize="18sp" />
+     </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+                    android:background="@color/page_bg"
+        
+        >
+
+        <ImageButton
+            android:id="@+id/btn_left_rss"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:background="@color/page_bg"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_left_rss" />
+
+        <TextView
+            android:id="@+id/btn_left_rss_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_left_rss"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="订阅"
+            android:textColor="@color/transparent"
+            android:textSize="18sp" />
+     </RelativeLayout>
+    <ListView
+    android:id="@+id/menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="40dp"
+    android:background="@color/page_bg"
+    android:listSelector="#00000000"  
+    android:cacheColorHint="@android:color/transparent" />
+
+</LinearLayout>
+
