@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="md__transparent">#550081d5</color>
+    <color name="md__defaultBackground">#FF555555</color>
+    <color name="banner.header_layer_bg">#0081d5</color>
+    <color name="banner.header_layer_border">#0081d5</color>
+    <color name="banner.header_gradient_start">#0081d5</color>
+    <color name="banner.header_gradient_end">#0081d5</color>
+    
+    <color name="page_bg">#f0f0f0</color>
+     <color name="transparent">#0081d5</color>
+     <color name="banner.header_text">#ffffff</color>
+
+</resources>

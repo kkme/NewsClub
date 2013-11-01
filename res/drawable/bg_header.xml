@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/banner.header_layer_bg" />
+        </shape>
+    </item>
+    <item android:bottom="1.0dip">
+        <shape>
+            <solid android:color="@color/banner.header_layer_border" />
+        </shape>
+    </item>
+    <item android:top="1.0dip" android:bottom="1.0dip">
+        <shape>
+            <gradient android:startColor="@color/banner.header_gradient_start" android:endColor="@color/banner.header_gradient_end" android:angle="90.0" />
+        </shape>
+    </item>
+</layer-list>
